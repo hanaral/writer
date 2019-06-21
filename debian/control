@@ -3,8 +3,10 @@ Section: x11
 Priority: optional
 Maintainer: Ryo Nakano <ryonakaknock3@gmail.com>
 Build-Depends: debhelper (>= 10.5.1),
-               libgranite-dev,
-               libgtk-3-dev,
+               libgranite-dev (>= 5.2.0),
+               libgtk-3-dev (>= 3.22),
+               libgtksourceview-3.0-dev,
+               libzeitgeist-2.0,
                meson,
                valac (>= 0.40.0)
 Standards-Version: 4.1.1
